@@ -20,7 +20,7 @@ export function Header({ isWalletConnected, balance, onConnectWallet }: HeaderPr
           {isWalletConnected ? (
             <div className="flex items-center gap-2">
               <Wallet2 className="h-5 w-5" />
-              <span>{balance} FLOW</span>
+              <span>{balance} BNB</span>
             </div>
           ) : (
             <Button onClick={onConnectWallet} variant="outline" size="sm">

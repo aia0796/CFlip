@@ -28,8 +28,8 @@ export function CoinFlip({ isWalletConnected, onFlip }: CoinFlipProps) {
         toast({
           title: won ? "You Won! 🎉" : "You Lost 😢",
           description: won 
-            ? `Congratulations! You won ${parseFloat(betAmount) * 2} FLOW`
-            : `You lost ${parseFloat(betAmount) * 0.7} FLOW`,
+            ? `Congratulations! You won ${parseFloat(betAmount) * 2} BNB`
+            : `You lost ${parseFloat(betAmount) * 0.7} BNB`,
           variant: won ? "default" : "destructive",
         });
         setIsFlipping(false);

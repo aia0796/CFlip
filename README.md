@@ -3,16 +3,16 @@ For TG USERS -> https://t.me/CoinflipBot/Coinflip
 
 ---------------------
 
-Add this CFLIP token as manually into your wallet on FLOW Chain
+Add this CFLIP token as manually into your wallet on BNB Chain
 
-Contract Address = 0x3DB018dF75e2Df9925c7e2dbe44088685a607dC4
+Contract Address = 0x63846e146420ff19c6b870878a189a922f2b2739
 
-Verify this Contract -> [Verify CFLIP](https://evm-testnet.flowscan.io/token/0x3DB018dF75e2Df9925c7e2dbe44088685a607dC4)
+Verify this Contract -> [Verify CFLIP](https://testnet.bscscan.com/token/0x63846e146420ff19c6b870878a189a922f2b2739)
 
 
 -------------
 
-Coinflip: Bet, Flip, Win – Simple, Fun, and Rewarding! (BUILD ON FLOW TESTNET)
+Coinflip: Bet, Flip, Win – Simple, Fun, and Rewarding! (BUILD ON BNB TESTNET)
 
 Coinflip: Where Fortune Meets Fun
 
@@ -20,7 +20,7 @@ Dive into the thrilling world of Coinflip, where every flip could change your fa
 
 Why Coinflip Stands Out:
 
-Custom Token (CFLIP): Deployed on the FLOW Chain, our Coinflip token (CFLIP) promises seamless transactions and a unique gaming ecosystem.
+Custom Token (CFLIP): Deployed on the BNB Chain, our Coinflip token (CFLIP) promises seamless transactions and a unique gaming ecosystem.
 Upcoming Attractions: Stay tuned for an array of new games that will keep you engaged and entertained. From classic casino games to innovative puzzles, there's something for everyone.
 Airdrops Galore: Keep an eye out for our frequent airdrops where you can snag CFLIP tokens for free, just for being part of our community.
 User-Friendly Interface: Our sleek, intuitive design ensures that whether you're a seasoned gamer or a newbie, you'll find navigating through Coinflip a breeze.

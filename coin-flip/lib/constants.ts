@@ -1,14 +1,14 @@
-export const FLOW_CHAIN_ID = "0x221"; // 5000 in decimal
-export const FLOW_RPC_URL = "https://testnet.evm.nodes.onflow.org/";
+export const BNB_CHAIN_ID = "0x61"; // 5000 in decimal
+export const BNB_RPC_URL = "https://bsc-testnet-rpc.publicnode.com/";
 
-export const FLOW_CHAIN_CONFIG = {
-  chainId: FLOW_CHAIN_ID,
+export const BNB_CHAIN_CONFIG = {
+  chainId: BNB_CHAIN_ID,
   chainName: "EVM on Flow (testnet)",
   nativeCurrency: {
-    name: "FLOW",
-    symbol: "FLOW",
+    name: "BNB",
+    symbol: "BNB",
     decimals: 18,
   },
-  rpcUrls: [FLOW_RPC_URL],
-  blockExplorerUrls: ["https://evm-testnet.flowscan.io"],
+  rpcUrls: [BNB_RPC_URL],
+  blockExplorerUrls: ["https://testnet.bscscan.com/"],
 };

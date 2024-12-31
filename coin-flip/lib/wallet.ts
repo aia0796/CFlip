@@ -1,8 +1,8 @@
-import { FLOW_CHAIN_CONFIG, FLOW_CHAIN_ID } from "./constants";
+import { BNB_CHAIN_CONFIG, BNB_CHAIN_ID } from "./constants";
 import { BrowserProvider, ethers } from 'ethers';
 
 import tokenABI from "@/contractInfo/abi.json"; // Import your custom token ABI
-const tokenAddress = "0x3DB018dF75e2Df9925c7e2dbe44088685a607dC4"; // Replace with your custom token contract address
+const tokenAddress = "0x63846e146420ff19c6b870878a189a922f2b2739"; // Replace with your custom token contract address
 
 declare global {
   interface Window {
@@ -26,14 +26,14 @@ export async function connectWallet(): Promise<{ address: string; balance: strin
     try {
       await window.ethereum.request({
         method: "wallet_switchEthereumChain",
-        params: [{ chainId: FLOW_CHAIN_ID }],
+        params: [{ chainId: BNB_CHAIN_ID }],
       });
     } catch (switchError: any) {
       // If the chain hasn't been added to MetaMask
       if (switchError.code === 4902) {
         await window.ethereum.request({
           method: "wallet_addEthereumChain",
-          params: [FLOW_CHAIN_CONFIG],
+          params: [BNB_CHAIN_CONFIG],
         });
       } else {
         throw switchError;
@@ -51,7 +51,7 @@ export async function connectWallet(): Promise<{ address: string; balance: strin
       params: [accounts[0], "latest"],
     });
 
-    // Convert balance from wei to FLOW
+    // Convert balance from wei to BNB
     const mantleBalance = (parseInt(balance, 16) / 1e18).toFixed(4);
 
     return {
